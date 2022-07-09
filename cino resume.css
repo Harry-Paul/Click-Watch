@@ -1,0 +1,226 @@
+body{
+background-color: rgb(40, 36, 36);
+}
+
+.a{
+    float: left;
+    padding-left: 35px;
+    padding-top: 35Px;
+    padding-bottom: 40px;
+    position:relative;
+    background-repeat:no-repeat;
+    
+}
+
+.s{
+    box-shadow: 20px 10px 30px 10px;
+}
+
+.b{
+    padding-left: 40%;
+    padding-top: 4%;
+    color: aliceblue;
+    font-family: 'Jura', sans-serif;
+}
+
+.c{
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+#d{
+    color:orange;
+}
+
+#e{
+    font-size:20px;
+}
+
+.f{
+    background-image: url("R.png");
+    background-size: px 500px;
+    padding-right: 130px;
+    padding-bottom: 400px;
+    position:absolute;
+}
+
+.g{
+    background-image: url("R.png");
+    margin-top: 200px;
+    padding-right: 290px;
+    padding-bottom: 460px;
+    position:absolute;
+}
+
+.h{
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+#abc
+    {
+        margin-left: 600px;
+    }
+
+
+
+
+    .slideshow-container {
+        position: relative;
+        background: rgb(37, 34, 34);
+      }
+      
+      /* Slides */
+      .mySlides {
+        display: none;
+        padding: 80px;
+        text-align: left;
+      }
+      
+      /* Next & previous buttons */
+      .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -30px;
+        padding: 16px;
+        color: #888;
+        font-weight: bold;
+        font-size: 20px;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+      }
+      
+      /* Position the "next button" to the right */
+      .next {
+        position: absolute;
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      /* On hover, add a black background color with a little bit see-through */
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+      }
+      
+      /* The dot/bullet/indicator container */
+      .dot-container {
+          text-align: center;
+          padding: 20px;
+          background: rgb(34, 31, 31);
+      }
+      
+      /* The dots/bullets/indicators */
+      .dot {
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        margin: 0 2px;
+        background-color: rgb(226, 213, 213);
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      /* Add a background color to the active dot/circle */
+      .active, .dot:hover {
+        background-color: #4b4646;
+      }
+
+      .j{
+        font-size: 25px;
+        color: aliceblue;
+        font-weight: bolder;
+      }
+
+
+      .social{
+        padding-top: 60px;
+        text-align: center;
+        }
+        .fa {  
+          padding: 10px;  
+          text-align: center;  
+          margin: 5px 2px;  
+          font-size: 30px;  
+          width: 30px;  
+          border-radius: 150px;
+        }  
+        .fa-facebook {  
+          background-color: #414141;
+          color: rgb(255, 140, 0);;
+        }  
+        .fa-twitter {  
+          background-color: #444444;
+          color: rgb(255, 140, 0);;
+        }  
+        .fa-pinterest {  
+          background-color: #444444;
+          color: rgb(255, 140, 0);;
+        }  
+        .fa-linkedin {  
+          background-color: #444444;
+          color: rgb(255, 140, 0);;
+        }  
+        .fa-instagram {  
+          background-color: #444444;
+          color: rgb(255, 140, 0);; 
+        }  
+        .fa-youtube {  
+          background-color: #444444;
+          color: rgb(255, 140, 0);;
+        }  
+        .fa-google {  
+          background-color: #444444;
+          color: rgb(255, 140, 0);; 
+        }  
+        .fa-snapchat-ghost {  
+          background-color: #444444;
+          color: rgb(255, 140, 0);; 
+          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+        }  
+        .fa-skype {  
+          background-color: #444444;
+          color: rgb(255, 140, 0);; 
+        }  
+        .fa:hover {  
+            opacity: 0.9;  
+            background-color: rgb(255, 140, 0);;
+            color: #000000;
+        }
+
+        .container {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 50px;
+          }
+          
+          .skills {
+            text-align: right;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: rgb(0, 0, 0);
+          }
+          
+          .html {
+            width: 90%;
+            background-color: #04AA6D;
+            border-radius: 50px;
+        }
+
+          .css {
+            width: 80%; 
+            background-color: #2196F3;
+            border-radius: 50px;
+        }
+
+          .js {
+            width: 65%; 
+            background-color: #f44336;
+            border-radius: 50px;
+        }

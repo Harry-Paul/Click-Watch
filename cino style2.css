@@ -1,0 +1,31 @@
+body{
+    background-image: url("44.jpg");
+    }
+    h1 {
+        color: rgb(104, 33, 33);
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .img{
+        margin-left: 100px;
+        margin-top: 80px;
+        float: left;
+    }
+
+    .xyz{
+        color: rgb(10, 13, 16);
+        text-align: left;
+        float: inherit;
+        font-size: 20px;
+        font-family: 'Jura', sans-serif;
+        margin-left: 650px;
+    }
+    address{
+        text-align: left;
+        font-size: 20px;
+    }
+    #abc
+    {
+        margin-left: 600px;
+    }
