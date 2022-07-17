@@ -9,7 +9,7 @@
     <title>Login page</title>
 </head>
 <body>
-    <a href="first page.html"><img id="logo" src="Logo.png" ></a>
+    <img id="logo" src="Logo.png" >
     <form>
         <div class="align">
         <table>
@@ -17,13 +17,13 @@
                 <td class="d">Sign In<br><br></td>
             </tr>
             <tr>
-                <td class="a"><input class="input" type="text" name="username" placeholder=" Email or phone number"><br><br></td>
+                <td class="a"><input class="input" type="text" name="username" id="username" placeholder=" Email or phone number"><br><br></td>
             </tr>
             <tr>
-                <td class="a"><input class="input" type="password" name="password" placeholder="Password"><br><br></td>
+                <td class="a"><input class="input" type="password" name="password" id="password" placeholder="Password"><br><br></td>
             </tr>
             <tr>
-                <td class="a"><button class="signin">Sign In</button></td>
+                <td class="a"><button  onclick = "validate()" class="signin">Sign In</button></td>
             </tr>
             <tr>
                 <td class="e"><input type="checkbox">Remember me</td>
@@ -46,5 +46,26 @@
         </table>
         </div>
     </form>
+<script>
+    function validate()
+    {
+        var username=document.getElementById("username").value;
+        var password=document.getElementById("password").value;
+        if(username == "" || password == ""){
+            alert("Invalid usersname or password")
+        }
+        if(username=="admin" && password=="user")
+        {
+            alert("login succesfully");
+            window.open("firstpage.html");
+            return false;
+            
+        }
+        else
+        {
+            alert("login failed");
+        }
+    }
+</script>
 </body>
 </html>
