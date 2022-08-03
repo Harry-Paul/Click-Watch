@@ -344,6 +344,7 @@ header{
     font-size: 30px;  
     width: 50px;  
     border-radius: 10px;
+    text-decoration: none;
   }  
   .fa-facebook {  
     background-color: #414141;
